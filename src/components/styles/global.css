@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Satoshi';
+    font-weight: 300 900;
+    src: url('./fonts/satoshi-variable.woff2');
+  }
+  
+  body {
+    font-family: 'Satoshi' , -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  input,
+  textarea,
+  button {
+    font-family: 'Satoshi' , -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }

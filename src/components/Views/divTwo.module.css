@@ -1,0 +1,100 @@
+.container {
+    display: grid;
+    grid-template: 25% 25% 15% 15% / 1fr 1fr;
+    column-gap: 15%;
+    padding: 2%;
+    width: 58%;
+    background-color: #FFFFFF;
+    box-shadow: 4px 10px 120px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    height: 250px;
+}
+
+
+.from {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+
+    color: #171E44;
+}
+
+.invoiceFor {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+
+    color: #171E44;
+}
+
+.input {
+    width: 50%;
+}
+
+.select__control {
+    height: 100px;
+}
+
+.avsenderAdresse {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #171E44;
+}
+
+.mottakerAdresse {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #171E44;
+}
+
+.avsenderPostkode {
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #171E44;
+}
+
+.mottakerPostkode {
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #171E44;
+}
+
+.avsenderLand {
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #171E44;
+}
+
+.mottakerLand {
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #171E44;
+}

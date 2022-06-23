@@ -1,0 +1,126 @@
+.container {
+
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 90%;
+    height: 170px;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 4px 10px 120px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    margin: 0 5% 3% 5%;
+}
+
+.innerContainer {
+    padding: 10px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 8fr 3fr;
+    column-gap: 30px;
+}
+
+.column1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row1container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.row1 {
+    margin-top: 10px;
+    height: 75px;
+    width: 100%;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    align-items: center;
+    width: 100%;
+}
+
+.product {
+    width: 39%;
+}
+
+.quantity {
+    width: 9%;
+    height: 50px;
+    border: 1px solid #e8e8e7;
+    border-radius: 10px;
+}
+
+.price {
+    width: 24%;
+    height: 50px;
+    border: 1px solid #e8e8e7;
+    border-radius: 10px;
+}
+
+.vat {
+    width: 24%;
+    padding: 0px;
+}
+
+.total {
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.close {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #e8e8e7;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg {
+    color: #171e44;
+}
+
+.descriptionContainer {
+    width: 100%;
+}
+
+.description {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e8e8e7;
+    border-radius: 10px;
+    resize: none;
+    display: flex;
+    padding-top: 15px;
+    padding-left: 20px;
+}

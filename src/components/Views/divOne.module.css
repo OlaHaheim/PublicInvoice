@@ -1,0 +1,174 @@
+.container {
+    padding: 2%;
+    width: 30%;
+    background-color: #ffffff;
+    box-shadow: 4px 10px 120px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.innercontainer {
+    padding-right: 5%;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    height: 15%;
+}
+
+
+.id {
+    height: 100%;
+    width: 50%;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #171E44;
+}
+
+.idnumber {
+    height: 100%;
+    width: 50%;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+
+    text-align: right;
+
+    color: #171E44;
+}
+
+.line {
+    width: 80%;
+    height: 0px;
+    border: 1px dashed #e1e1e1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.gridcontainer {
+    height: 40%;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    align-items: baseline;
+    justify-items: end;
+    height: 100%;
+    width: 95%;   
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    align-items: baseline;
+    justify-items: end;
+    width: 95%;
+    height: 100%;
+    margin-bottom: 6%;
+}
+
+.datepicker {
+    display: grid;
+    justify-items: end;
+    align-items: end;
+}
+
+.issued {
+    height: 100%;
+    justify-self: baseline;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #171E44;
+}
+
+.dateissued {
+
+    height: 100%;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #171E44;
+}
+
+.duedate {
+
+    height: 15%;
+    justify-self: baseline;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+    color: #171E44;
+}
+
+.datedue {
+
+    height: 15%;
+    width: 40%;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #171E44;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    align-items: center;
+    height: 15%;
+}
+
+.comment {
+
+    height: 100%;
+    margin: 0;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #171E44;
+}
+
+.footerpencil {
+    display: grid;
+    align-items: end;
+    justify-items: end;
+}

@@ -1,0 +1,76 @@
+.container {
+    padding: 5%;
+}
+
+.header {
+    margin-bottom: 5%;
+}
+
+.radioContainer {
+    display: flex;
+    width: 100%;
+}
+
+.customRadioButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customRadioButton .checkmark {
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    display: inline-block;
+    border: 2px solid #9c9a9b;
+    border-radius: 50%;
+}
+
+.customRadioButton input:checked+.checkmark {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background-color: #fff;
+    border: 6px solid #fcda67;
+    border-radius: 50%;
+}
+
+.customRadioButton input {
+    display: none;
+}
+
+.text {
+    margin-left: 10px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.persongrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.companyName {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.companyInfo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.button {
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 16px;
+}
